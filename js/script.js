@@ -22,7 +22,7 @@ function carregaDicionario() {
       citacao:
         "A gente não nasce negro, a gente se torna negro. É uma conquista dura, cruel e que se desenvolve pela vida da gente afora.",
     },
-    
+
     bio03: {
       nome: "Angela Davis",
 
@@ -71,7 +71,26 @@ function carregaDicionario() {
         "⁠Você nunca deve ter medo do que está fazendo quando está certo.",
     },
   };
-  console.log(biografias);
+
+  var content = document.getElementById("content");
+
+  for (var bio in biografias) {
+    content.innerHTML +=
+      '<div class="card">' +
+      '<img src="' +
+      biografias[bio].imagem +
+      '"/>' +
+      "<details><summary>" +
+      biografias[bio].nome +
+      "</summary>" +
+      "<p>" +
+      biografias[bio].descricao +
+      "</p>" +
+      "<blockquote><q>" +
+      biografias[bio].citacao +
+      "</q></blockquote>" +
+      "</details></div>";
+  }
 }
 
 carregaDicionario();
