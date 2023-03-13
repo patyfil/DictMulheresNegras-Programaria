@@ -32,12 +32,12 @@ Você pode visualizar o [layout do projeto online](https://mulheresnegras.vercel
 
 <p align="center">Desktop: </p>
 <p align="center">
-    <img src="img/desktop.jpg" >  
+    <img src="img/desktop2.jpg" >  
 </p>
 
 <p align="center">Mobile: </p>
 <p align="center">
-    <img src="img/mobile.jpg" >  
+    <img src="img/mobile2.jpg" width=50%>  
 </p>
 
 
