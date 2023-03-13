@@ -54,6 +54,10 @@ section {
     font-style: italic;
 }
 
+footer {
+  text-align: center;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
